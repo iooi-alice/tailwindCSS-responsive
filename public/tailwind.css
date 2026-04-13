@@ -1,0 +1,42 @@
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto
+}
+
+.hidden {
+  display: none
+}
+
+.w-full {
+  width: 100%
+}
+
+.max-w-\[1440px\] {
+  max-width: 1440px
+}
+
+.max-w-\[1740px\] {
+  max-width: 1740px
+}
+
+.overflow-hidden {
+  overflow: hidden
+}
+
+@media (max-width: 1740px) {
+  .max-\[1740px\]\:w-\[95\%\] {
+    width: 95%
+  }
+}
+
+@media (max-width: 1440px) {
+  .max-\[1440px\]\:w-\[95\%\] {
+    width: 95%
+  }
+}
+
+@media (max-width: 768px) {
+  .max-\[768px\]\:block {
+    display: block
+  }
+}
